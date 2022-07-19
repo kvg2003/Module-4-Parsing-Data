@@ -183,57 +183,57 @@ def tic_tac_toe(board):
         elif sum([x.count(board[4][0]) for x in[board[4 - i][i] for i,v in enumerate(board)]]) != 5:
             return print("NO WINNER")
     elif len(board) == 6: 
-        if 5 in [x.count(board[0][0]) for x in board]:
+        if 6 in [x.count(board[0][0]) for x in board]:
             return board[0][0]
-        elif 5 in [x.count(board[1][0]) for x in board]:
+        elif 6 in [x.count(board[1][0]) for x in board]:
             return board[1][0]
-        elif 5 in [x.count(board[2][0]) for x in board]:
+        elif 6 in [x.count(board[2][0]) for x in board]:
             return board[2][0]
-        elif 5 in [x.count(board[3][0]) for x in board]:
+        elif 6 in [x.count(board[3][0]) for x in board]:
             return board[3][0]
-        elif 5 in [x.count(board[4][0]) for x in board]:
+        elif 6 in [x.count(board[4][0]) for x in board]:
             return board[4][0]
-        elif 5 in [x.count(board[5][0]) for x in board]:
+        elif 6 in [x.count(board[5][0]) for x in board]:
             return board[5][0]
-        elif 5 in [x.count(board[0][0]) for x in zip(*board)]:
+        elif 6 in [x.count(board[0][0]) for x in zip(*board)]:
             return board[0][0]
-        elif 5 in [x.count(board[1][0]) for x in zip(*board)]:
+        elif 6 in [x.count(board[1][0]) for x in zip(*board)]:
             return board[1][0]
-        elif 5 in [x.count(board[2][0]) for x in zip(*board)]:
+        elif 6 in [x.count(board[2][0]) for x in zip(*board)]:
             return board[2][0]
-        elif 5 in [x.count(board[3][0]) for x in zip(*board)]:
+        elif 6 in [x.count(board[3][0]) for x in zip(*board)]:
             return board[3][0]
-        elif 5 in [x.count(board[4][0]) for x in zip(*board)]:
+        elif 6 in [x.count(board[4][0]) for x in zip(*board)]:
             return board[4][0]
-        elif 5 in [x.count(board[5][0]) for x in zip(*board)]:
+        elif 6 in [x.count(board[5][0]) for x in zip(*board)]:
             return board[5][0]
         elif sum([x.count(board[0][0]) for x in [board[i][i] for i,v in enumerate(board)]]) == 6:
             return board[0][0]
         elif sum([x.count(board[5][0]) for x in[board[5 - i][i] for i,v in enumerate(board)]]) == 6:
             return board[5][0]
-        elif 5 not in [x.count(board[0][0]) for x in board]:
+        elif 6 not in [x.count(board[0][0]) for x in board]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[1][0]) for x in board]:
+        elif 6 not in [x.count(board[1][0]) for x in board]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[2][0]) for x in board]:
+        elif 6 not in [x.count(board[2][0]) for x in board]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[3][0]) for x in board]:
+        elif 6 not in [x.count(board[3][0]) for x in board]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[4][0]) for x in board]:
+        elif 6 not in [x.count(board[4][0]) for x in board]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[5][0]) for x in board]:
+        elif 6 not in [x.count(board[5][0]) for x in board]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[0][0]) for x in zip(*board)]:
+        elif 6 not in [x.count(board[0][0]) for x in zip(*board)]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[1][0]) for x in zip(*board)]:
+        elif 6 not in [x.count(board[1][0]) for x in zip(*board)]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[2][0]) for x in zip(*board)]:
+        elif 6 not in [x.count(board[2][0]) for x in zip(*board)]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[3][0]) for x in zip(*board)]:
+        elif 6 not in [x.count(board[3][0]) for x in zip(*board)]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[4][0]) for x in zip(*board)]:
+        elif 6 not in [x.count(board[4][0]) for x in zip(*board)]:
             return print("NO WINNER")
-        elif 5 not in [x.count(board[5][0]) for x in zip(*board)]:
+        elif 6 not in [x.count(board[5][0]) for x in zip(*board)]:
             return print("NO WINNER")
         elif sum([x.count(board[0][0]) for x in [board[i][i] for i,v in enumerate(board)]]) != 6:
             return print("NO WINNER")
